@@ -14,4 +14,8 @@ fun main(args: Array<String>) {
     // Check if the list contains elements using the contain method
     println("Contains 4: ${numbers.contains(4)}")
     println("Contains 7: ${numbers.contains(8)}")
+
+    // Sorting lists
+    println("Sorted reversed: ${numbers.reversed()}")
+    println("Sorted: ${numbers.sorted()}")
 }
