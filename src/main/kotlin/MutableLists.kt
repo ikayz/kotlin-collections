@@ -21,6 +21,10 @@ fun main() {
     println("Remove noodles by index: ${entrees.removeAt(0)}")
     println("Entrees: $entrees")
 
+    // Clear the list
     entrees.clear()
     println("Entrees: $entrees")
+
+    // Check if empty list
+    println("Entrees? ${entrees.isEmpty()}")
 }
