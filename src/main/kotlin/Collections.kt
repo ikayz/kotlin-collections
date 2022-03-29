@@ -9,6 +9,8 @@ fun main() {
     // Mutable sets
     val set1 = setOf(1, 2, 3)
     val set2 = mutableSetOf(3, 2, 1)
+    println("$set1 == $set2: ${set1 == set2}")
 
-
+    // Contains 7
+    println("Contains 7: ${setOfNumbers.contains(7)}")
 }
