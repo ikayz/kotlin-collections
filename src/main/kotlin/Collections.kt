@@ -20,5 +20,10 @@ fun main() {
         "Isaac" to 30,
         "Louisa" to 23
     )
+
+    // Add to a map
+    peopleAges.put("Joy", 25)
+    peopleAges["Arthur"] = 45
+
     println(peopleAges)
 }
