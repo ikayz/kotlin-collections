@@ -24,6 +24,13 @@ fun main() {
     // Add to a map
     peopleAges.put("Joy", 25)
     peopleAges["Arthur"] = 45
+    peopleAges["Isaac"] = 31
 
     println(peopleAges)
+
+    // ForEach
+    peopleAges.forEach{println("${it.key} is ${it.value}")}
+
+    // Using map function
+    println(peopleAges.map { "${it.key} is ${it.value}" }.joinToString (", " ))
 }
