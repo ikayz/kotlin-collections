@@ -1,8 +1,9 @@
 fun main() {
+    // List
     val numbers = listOf(0, 3, 8, 4, 0, 5, 5, 8, 9, 2)
     println("List: ${numbers.sorted()}")
 
-    // Convert to a set
+    // Set
     val setOfNumbers = numbers.toSet()
     println("Set: $setOfNumbers")
 
@@ -13,4 +14,11 @@ fun main() {
 
     // Contains 7
     println("Contains 7: ${setOfNumbers.contains(7)}")
+
+    // Map
+    val peopleAges = mutableMapOf<String, Int>(
+        "Isaac" to 30,
+        "Louisa" to 23
+    )
+    println(peopleAges)
 }
