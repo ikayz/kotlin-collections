@@ -33,4 +33,8 @@ fun main() {
 
     // Using map function
     println(peopleAges.map { "${it.key} is ${it.value}" }.joinToString (", " ))
+
+    // Filter
+    val filteredNames = peopleAges.filter { it.key.length < 4 }
+    println(filteredNames)
 }
